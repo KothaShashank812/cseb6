@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vignan</title>
+  <style>
+    body {
+      background-color: lightyellow;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      text-align: center;
+      font-size: 60px;
+      color: red;
+      font-family: Algerian, serif;
+      margin-top: 20px;
+    }
+
+    hr {
+      width: 1000px;
+      height: 2px;
+      background-color: blue;
+      border: none;
+    }
+
+    .marquee {
+      font-size: 24px;
+      color: red;
+    }
+
+    .nav {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    .form-container {
+      text-align: center;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+      width: 250px;
+      padding: 8px;
+      margin: 8px;
+      border-radius: 5px;
+      border: 1px solid #999;
+    }
+
+    .form-container input[type="checkbox"] {
+      margin-top: 20px;
+    }
+
+    .form-container input[type="button"] {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .form-container input[type="button"]:hover {
+      background-color: #45a049;
+    }
+
+    h.agreement {
+      display: inline;
+      font-size: 16px;
+      font-weight: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">Vignan Institute of Technology and Science</div>
+
+  <hr>
+
+  <marquee class="marquee" behavior="alternate" direction="right">
+    Computer Science
+  </marquee>
+
+  <hr>
+
+  <div class="nav">
+    <a href="/index.html">Home</a>
+    <a href="/login.html">Login</a>
+    <a href="/reg.html">Register</a>
+    <a href="/contact.html">Contact Us</a>
+    <a href="/about.html">About Us</a>
+    <a href="/cart.html">Cart</a>
+  </div>
+
+  <div class="form-container">
+    <form>
+      First Name: <input type="text" name="firstname"><br>
+      Last Name: <input type="text" name="lastname"><br>
+      Phone No: <input type="text" name="phone"><br>
+      G-mail: <input type="text" name="email"><br>
+      Password: <input type="password" name="password"><br>
+      <input type="checkbox" name="terms">
+      <h class="agreement">I agree to all terms and conditions</h><br>
+      <input type="button" value="REGISTER">
+    </form>
+  </div>
+</body>
+</html>
